@@ -16,11 +16,7 @@ This is a simple Django 3.0+ project template with my preferred setup. Most Djan
 ## How to install
 
 ```bash
-$ django-admin.py startproject \
-  --template=https://github.com/jpadilla/django-project-template/archive/master.zip \
-  --name=Procfile \
-  --extension=py,md,env \
-  project_name
+$ django-admin.py startproject --template=https://github.com/danialkeimasi/django-project-template/archive/customized.zip --name=Procfile --extension=py,md,env project_name
 $ mv example.env .env
 $ pipenv install --dev
 ```
